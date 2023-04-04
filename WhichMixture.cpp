@@ -1,0 +1,18 @@
+// Codechef Problem: https://www.codechef.com/problems/MIXTURE
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t, a, b;
+	cin >>t;
+	while (t--){
+	    cin >>a >>b;
+	    if(a == 0){cout <<"Liquid" <<endl;}
+	    else if(b == 0){cout <<"Solid" <<endl;}
+	    else{cout <<"Solution" <<endl;}
+	}
+	return 0;
+}
